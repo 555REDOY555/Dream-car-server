@@ -9,21 +9,7 @@ const admin = require("firebase-admin");
 const app = express();
 const port = process.env.PORT || 5000;
 
-//assignment-12-5f3ba-firebase-adminsdk-sp7wc-56f03e845f.json 
 
-
-
-//hi
-
-
-
-
-
-const serviceAccount = require('./assignment-12-5f3ba-firebase-adminsdk-sp7wc-56f03e845f.json');
-
-admin.initializeApp({
-     credential: admin.credential.cert(serviceAccount)
-});
 
 // middleware
 app.use(cors());
